@@ -28,10 +28,12 @@ It provides a **safe**, **no-API-key**, and **resource-efficient** experience �
 ```
 ChatGPT-Desktop-Linux-VTS
 ├── build
-│   └── ChatGPT_Desktop-x86_64.AppImage
+│   └── ChatGPT_Desktop-x86_64.AppImage
+├── LICENSE
 ├── packaging
-│   ├── chatgpt-desktop-1.0.0.deb
-│   └── chatgpt-desktop-1.0-1.x86_64.rpm
+│   ├── chatgpt-desktop-1.0.0.deb
+│   └── chatgpt-desktop-1.0-1.x86_64.rpm
+├── README.md
 ├── release-upload.sh
 └── src
     ├── appimagetool-x86_64.AppImage
@@ -46,8 +48,7 @@ ChatGPT-Desktop-Linux-VTS
     ├── chatgpt.png
     ├── chatgpt-vts-symbol.svg
     ├── install.sh
-    ├── packaging
-    └── README.md
+    └── packaging
 ```
 
 ---
