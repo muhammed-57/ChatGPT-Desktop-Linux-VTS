@@ -1,0 +1,12 @@
+# Build artifacts
+build/
+packaging/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# System or IDE files
+.DS_Store
+*.log
+*.swp

@@ -1,0 +1,34 @@
+name: Build and Publish Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up environment
+        run: |
+          sudo apt update
+          sudo apt install -y dpkg-dev debhelper rpm appstream gettext \
+              libglib2.0-dev gir1.2-webkit2-4.1 python3-gi python3-pip
+          pip install browser-cookie3
+
+      - name: Build and package
+        run: |
+          chmod +x release-upload.sh
+          ./release-upload.sh --build
+
+      - name: Upload GitHub Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          ./release-upload.sh
