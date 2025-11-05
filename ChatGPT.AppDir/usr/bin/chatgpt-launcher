@@ -1,0 +1,10 @@
+#!/bin/bash
+
+BROWSER=$(command -v google-chrome || command -v chromium || command -v chromium-browser || command -v brave-browser)
+
+if [ -z "$BROWSER" ]; then
+  zenity --error --text="No supported browser found. Install Chrome, Chromium, or Brave."
+  exit 1
+fi
+
+"$BROWSER" --app=https://chatgpt.com

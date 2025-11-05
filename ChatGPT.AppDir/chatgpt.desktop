@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=ChatGPT Desktop
+Comment=ChatGPT Desktop App (Vishwanath Tec Systems)
+Exec=chatgpt-launcher
+Icon=chatgpt
+Terminal=false
+Categories=Utility;Network;
